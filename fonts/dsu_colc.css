@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DSU_CologneCondenseRegular';
+    src: url('dsu_colc.eot');
+    src: url('dsu_colc.eot') format('embedded-opentype'),
+         url('dsu_colc.woff2') format('woff2'),
+         url('dsu_colc.woff') format('woff'),
+         url('dsu_colc.ttf') format('truetype'),
+         url('dsu_colc.svg#DSU_CologneCondenseRegular') format('svg');
+}

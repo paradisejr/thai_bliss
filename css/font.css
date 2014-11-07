@@ -1,0 +1,22 @@
+/*========================================
+=            Font DSUCol          =
+========================================*/
+@font-face {
+    font-family: 'DSU_CologneRegular';
+    src: url('../fonts/dsu_col.eot');
+    src: url('../fonts/dsu_col.eot') format('embedded-opentype'),
+         url('../fonts/dsu_col.woff2') format('woff2'),
+         url('../fonts/dsu_col.woff') format('woff'),
+         url('../fonts/dsu_col.ttf') format('truetype'),
+         url('../fonts/dsu_col.svg#DSU_CologneRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'DSU_CologneCondenseRegular';
+    src: url('../fonts/dsu_colc.eot');
+    src: url('../fonts/dsu_colc.eot') format('embedded-opentype'),
+         url('../fonts/dsu_colc.woff2') format('woff2'),
+         url('../fonts/dsu_colc.woff') format('woff'),
+         url('../fonts/dsu_colc.ttf') format('truetype'),
+         url('../fonts/dsu_colc.svg#DSU_CologneCondenseRegular') format('svg');
+}
