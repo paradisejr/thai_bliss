@@ -386,77 +386,70 @@ a {
 	font-family: 'DSU_CologneRegular';
 	color: #fce082;
 
-	ul {
-		padding: 0;
-		margin: 0;
+	.item {
 		text-align: center;
+	}
 
-		li {
+	span.menu-bar {
+		text-align: center;
+		width: 192px;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		z-index: 700;
+		font-size: 18px;
+		padding: 15px;
+		box-sizing: border-box;
 
-			&.menu-bar {
-				text-align: center;
-				width: 192px;
-				display: inline-block;
-				margin: 0;
-				padding: 0;
-				position: relative;
-				z-index: 700;
-				font-size: 18px;
-				padding: 15px;
-				box-sizing: border-box;
+		&.active a:before, &:hover a:before {
+			background-position: -26px 0;
+		}
 
-				&.active a:before, &:hover a:before {
-					background-position: -26px 0;
-				}
+		&.active a:after, &:hover a:after {
+			background-position: -26px -20px;
+		}
+		&.active a {
+			color: #dedede;
+			border-top: 1px solid #dedede;
+			border-bottom: 1px solid #dedede;
+		}
 
-				&.active a:after, &:hover a:after {
-					background-position: -26px -20px;
-				}
-				&.active a {
-					color: #dedede;
-					border-top: 1px solid #dedede;
-					border-bottom: 1px solid #dedede;
-				}
+		a {
+			display: block;
+			text-transform: uppercase;
+			border-top: 1px solid #fce082;
+			border-bottom: 1px solid #fce082;
+			line-height: 50px;
 
-				a {
-					display: block;
-					text-transform: uppercase;
-					border-top: 1px solid #fce082;
-					border-bottom: 1px solid #fce082;
-					line-height: 50px;
-
-					&:hover {
-						border-top: 1px solid #dedede;
-						border-bottom: 1px solid #dedede;
-						transition-duration: 0.3s;
-					}
-
-					&:before,&:after {
-						content: "";
-						background: url(../img/icon/hover-menu.png) 0 0 no-repeat;
-						width: 25px;
-						height: 20px;
-						position: absolute;
-						left: 44%;
-					}
-
-					&:before {
-						background-position: 0 0;
-						top: -4px;
-					}
-
-					&:after {
-						background-position: 0 -20px;
-						bottom: -4px;
-					}
-
-				}
-
+			&:hover {
+				border-top: 1px solid #dedede;
+				border-bottom: 1px solid #dedede;
+				transition-duration: 0.3s;
 			}
+
+			&:before,&:after {
+				content: "";
+				background: url(../img/icon/hover-menu.png) 0 0 no-repeat;
+				width: 25px;
+				height: 20px;
+				position: absolute;
+				left: 44%;
+			}
+
+			&:before {
+				background-position: 0 0;
+				top: -4px;
+			}
+
+			&:after {
+				background-position: 0 -20px;
+				bottom: -4px;
+			}
+
 		}
 
 	}
-
 }
 
 .slide-banner {

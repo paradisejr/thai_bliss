@@ -318,12 +318,10 @@ a:hover {
   font-family: 'DSU_CologneRegular';
   color: #fce082;
 }
-.menu-link ul {
-  padding: 0;
-  margin: 0;
+.menu-link .item {
   text-align: center;
 }
-.menu-link ul li.menu-bar {
+.menu-link span.menu-bar {
   text-align: center;
   width: 192px;
   display: inline-block;
@@ -335,33 +333,33 @@ a:hover {
   padding: 15px;
   box-sizing: border-box;
 }
-.menu-link ul li.menu-bar.active a:before,
-.menu-link ul li.menu-bar:hover a:before {
+.menu-link span.menu-bar.active a:before,
+.menu-link span.menu-bar:hover a:before {
   background-position: -26px 0;
 }
-.menu-link ul li.menu-bar.active a:after,
-.menu-link ul li.menu-bar:hover a:after {
+.menu-link span.menu-bar.active a:after,
+.menu-link span.menu-bar:hover a:after {
   background-position: -26px -20px;
 }
-.menu-link ul li.menu-bar.active a {
+.menu-link span.menu-bar.active a {
   color: #dedede;
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
-.menu-link ul li.menu-bar a {
+.menu-link span.menu-bar a {
   display: block;
   text-transform: uppercase;
   border-top: 1px solid #fce082;
   border-bottom: 1px solid #fce082;
   line-height: 50px;
 }
-.menu-link ul li.menu-bar a:hover {
+.menu-link span.menu-bar a:hover {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   transition-duration: 0.3s;
 }
-.menu-link ul li.menu-bar a:before,
-.menu-link ul li.menu-bar a:after {
+.menu-link span.menu-bar a:before,
+.menu-link span.menu-bar a:after {
   content: "";
   background: url(../img/icon/hover-menu.png) 0 0 no-repeat;
   width: 25px;
@@ -369,11 +367,11 @@ a:hover {
   position: absolute;
   left: 44%;
 }
-.menu-link ul li.menu-bar a:before {
+.menu-link span.menu-bar a:before {
   background-position: 0 0;
   top: -4px;
 }
-.menu-link ul li.menu-bar a:after {
+.menu-link span.menu-bar a:after {
   background-position: 0 -20px;
   bottom: -4px;
 }

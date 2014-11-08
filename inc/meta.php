@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css" >
         <link rel="stylesheet" href="css/parallax.css">
         <link rel="stylesheet" href="js/plugin/zoominoutslider/bannerscollection_zoominout.css" type="text/css">
+        <link rel="stylesheet" href="js/plugin/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="js/plugin/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.min.css">
         <link rel="stylesheet" href="js/plugin/select2-3.5.1/select2.css">
@@ -44,6 +45,7 @@
 
         <script src="js/plugin/zoominoutslider/js/bannerscollection_zoominout.js" type="text/javascript"></script>
         <script src="js/plugin/zoominoutslider/js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+        <script src="js/plugin/owl-carousel/owl.carousel.js" type="text/javascript"></script>
 
     </head>
 
