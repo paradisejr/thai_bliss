@@ -4,7 +4,18 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 <div class="page-wrapper">
-	<div class="row">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="header-page">
+					<h4>Gallery</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row mg0">
 		<div id="pxs_container" class="pxs_container">
 			<div class="pxs_bg">
 				<div class="pxs_bg1"></div>
@@ -14,12 +25,36 @@ include 'inc/header.php';
 			<div class="pxs_loading">Loading images...</div>
 			<div class="pxs_slider_wrapper">
 				<ul class="pxs_slider">
-					<li><img src="img/parallax/1.jpg" alt="First Image" /></li>
-					<li><img src="img/parallax/2.jpg" alt="Second Image" /></li>
-					<li><img src="img/parallax/3.jpg" alt="Third Image" /></li>
-					<li><img src="img/parallax/4.jpg" alt="Forth Image" /></li>
-					<li><img src="img/parallax/5.jpg" alt="Fifth Image" /></li>
-					<li><img src="img/parallax/6.jpg" alt="Sixth Image" /></li>
+					<li>
+						<div class="fix-slide">
+							<img src="img/parallax/slide-1.jpg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="fix-slide">
+							<img src="img/parallax/slide-2.jpg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="fix-slide">
+							<img src="img/parallax/slide-3.jpg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="fix-slide">
+							<img src="img/parallax/slide-4.jpg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="fix-slide">
+							<img src="img/parallax/slide-5.jpg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="fix-slide">
+							<img src="img/parallax/slide-6.jpg" alt="" />
+						</div>
+					</li>
 				</ul>
 				<div class="pxs_navigation">
 					<span class="pxs_next"></span>

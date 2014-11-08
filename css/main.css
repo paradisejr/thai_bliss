@@ -110,7 +110,8 @@ a:hover {
   width: 100%;
   background: #251104;
   margin: 0 auto;
-  display: table;
+  display: block;
+  min-height: 500px;
 }
 .page-wrapper .header-page {
   margin-bottom: 10px;
@@ -120,6 +121,7 @@ a:hover {
   font-family: 'DSU_CologneCondenseRegular';
   font-size: 48px;
   color: #fce082;
+  text-transform: uppercase;
 }
 .pattern {
   background: url(../img/header-pattern.png) 0 0 repeat;
@@ -249,6 +251,7 @@ a:hover {
   top: 23px;
   width: 135px;
   border-radius: 0 5px 5px 5px;
+  z-index: 500;
 }
 #main-header .main-nav li ul.sub-menu li {
   display: block;
@@ -435,6 +438,23 @@ a:hover {
   text-align: right;
 }
 /* end Treatments */
+/* Start Gallery */
+.page-wrapper .row.mg0 {
+  margin: 0;
+}
+.page-wrapper .fix-slide {
+  max-width: 1040px;
+  margin: 35px auto 0;
+  display: block;
+  max-height: 545px;
+  position: relative;
+}
+.page-wrapper .fix-slide img {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+/* end Gallery */
 /* Start Offers */
 .img-respon img {
   width: 100%;
@@ -623,9 +643,6 @@ a:hover {
     height: auto;
     content: none;
   }
-  #main-header {
-    margin-bottom: 42px;
-  }
   #main-header .main-nav {
     right: 0;
   }
@@ -717,11 +734,79 @@ a:hover {
     text-align: center;
   }
 }
+@media (max-width: 320px) {
+  .page-wrapper .pxs_container {
+    height: 240px !important;
+  }
+  .page-wrapper .pxs_container {
+    height: 240px !important;
+  }
+}
 @media (max-width: 480px) {
+  body {
+    min-width: 320px;
+  }
   #main-header .contact .facebook {
     display: none;
   }
   #main-header .contact .facebook.mini {
     display: inline-block;
+  }
+  .page-wrapper .pxs_container {
+    height: 330px !important;
+  }
+  .page-wrapper .pxs_container {
+    height: 330px !important;
+  }
+  .pxs_navigation span {
+    height: 34px;
+    bottom: 5% !important;
+    width: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .page-wrapper .pxs_container {
+    height: 470px;
+  }
+  .page-wrapper .pxs_container {
+    height: 470px;
+  }
+}
+@media (max-width: 1023px) {
+  #main-header {
+    margin-bottom: 42px;
+  }
+  .page-wrapper {
+    min-height: 320px;
+  }
+  .pxs_navigation span {
+    top: auto;
+    bottom: 5%;
+    width: 8%;
+  }
+  .pxs_navigation span.pxs_next {
+    position: absolute;
+    right: 40% !important;
+    margin: 0;
+  }
+  .pxs_navigation span.pxs_prev {
+    position: absolute;
+    left: 40% !important;
+  }
+  .pxs_thumbnails {
+    display: none;
+  }
+  .pxs_container {
+    height: 600px;
+  }
+  .pxs_bg {
+    height: 600px;
+  }
+  .page-wrapper .fix-slide {
+    left: 6%;
+    right: 5%;
+  }
+  .page-wrapper .fix-slide img {
+    width: 90%;
   }
 }
