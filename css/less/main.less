@@ -179,7 +179,7 @@ a {
 #main-header,.menu-link {
 	position: relative;
 	width: 100%;
-	margin: 0 auto;
+	margin: auto 0;
 }
 
 #main-header {
@@ -360,6 +360,25 @@ a {
 
 
 /* Start Home Page */
+.page-wrapper .bannerscollection_zoominout.opportune .bottomNavButtonOFF {
+	margin: 4px;
+}
+
+.page-wrapper .bannerscollection_zoominout.opportune .bottomNav {
+	width: 80px !important;
+
+}
+
+.textElement21_opportuneFullWidth, .textElement22_opportuneFullWidth {
+	h3 {
+		color: #fce082;
+		font-family: "DSU_CologneCondenseRegular";
+		font-size: 48px;
+		text-transform: none;
+		margin: 0;
+	}
+}
+
 .menu-link {
 	background: url(../img/bg-footer.jpg) left 0 no-repeat;
 	height: 128px;
@@ -441,14 +460,10 @@ a {
 }
 
 .slide-banner {
-	width: 100%;
 	border-top: 2px solid #fce082;
 	border-bottom: 2px solid #fce082;
-	margin: 5px 0 10px 0;
+	margin: 0 auto 40px;
 
-	img {
-		width: 100%;
-	}
 }
 /* end Home Page */
 
@@ -963,6 +978,14 @@ a {
 		bottom: 5% !important;
 		width: 30px !important;
 	}
+
+}
+
+@media (max-width: 767px) {
+	.textElement21_opportuneFullWidth, .textElement22_opportuneFullWidth,
+	.bannerControls, .thumbsHolderWrapper, .mycanvas {
+		display: none;
+	}
 }
 
 
@@ -1027,6 +1050,12 @@ a {
 
 		img {
 			width: 90%;
+		}
+	}
+
+	.textElement21_opportuneFullWidth {
+		h3 {
+			margin: 20px;
 		}
 	}
 }
