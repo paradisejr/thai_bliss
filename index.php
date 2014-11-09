@@ -10,6 +10,7 @@ include 'inc/header.php';
 
 		jQuery('#bannerscollection_zoominout_opportune').bannerscollection_zoominout({
 			skin: 'opportune',
+			autoPlay: 10,
 			responsive:true,
 			width100Proc:true,
 			width: 1920,
@@ -19,7 +20,7 @@ include 'inc/header.php';
 			circleColor: "#ffffff", //849ef3
 			circleAlpha: 50,
 			behindCircleColor: "#000000",
-			behindCircleAlpha: 20,
+			behindCircleAlpha: 10,
 			thumbsWrapperMarginTop:25
 		});
 
@@ -92,3 +93,4 @@ include 'inc/header.php';
 </div> <!-- end page-wrapper -->
 
 <?php include 'inc/footer.php'; ?>
+

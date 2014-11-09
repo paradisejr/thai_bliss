@@ -17,7 +17,7 @@
 					<div class="contact">
 						<ul>
 							<li><a href="">Tel: 02-6262-9297</a><i class="icon tel"></i></li>
-							<li><a href="">Maps</a><i class="icon maps"></i></li>
+							<li><a class="fancybox" href="#maps-details">Maps</a><i class="icon maps"></i></li>
 							<li><a href="">Sound</a><i class="icon sound"></i></li>
 							<li>
 								<a href="">
@@ -27,7 +27,43 @@
 							</li>
 						</ul>
 					</div>
-				</div>
+
+					<!-- Start FancyBox Maps -->
+					<div id="maps-details">
+						<div class="fancy-wrapper">
+							<h3>thai bliss Map</h3>
+
+							<div class="col-md-7 col-sm-7">
+								<div class="maps-area">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0814953148415!2d149.12435100000002!3d-35.2791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164d42fb5efdf5%3A0xdecdb04bfea6b5e3!2sThai+Bliss+Therapeutic+Massage!5e0!3m2!1sth!2sth!4v1414926416343" width="800" height="260" frameborder="0" style="border:0"></iframe>
+								</div>
+							</div>
+							<div class="col-md-5 col-sm-5">
+								<div class="address-area">
+									<h4>thaiblissmassage</h4>
+									<p>
+										Shop 2, Childers Square (University Avenue Side)
+										14 Childers Street, Canberra City  ACT
+									</p>
+									<span class="text">Phone :</span>
+									<p>02 6262 9297</p>
+									<span class="text">Email :</span>
+									<p>info@thaiblissmassage.com.au</p>
+
+									<div class="trading-hourse">
+										<span>Trading Hours</span>
+										<p>10am- 10pm</p>
+										<p>Open 7 days a week</p>
+										<span>Please call us in advance to avoid any disappointment</span>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end fancy-wrapper -->
+					</div> <!-- end maps details -->
+					<!-- end FancyBox Maps -->
+
+				</div> <!-- end row -->
+
 				<div class="row">
 					<div class="address">
 						<span>Shop 2, Childers Square (University Avenue Side) 14 Childers Street, Canberra City ACT</span>

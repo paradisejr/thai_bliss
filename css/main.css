@@ -104,6 +104,103 @@ a:hover {
   border-bottom: 0 solid !important;
 }
 /* end select box */
+/* Fancybox Style */
+.fancybox-close {
+  right: 7px;
+  top: 7px;
+}
+.fancybox-skin {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px !important;
+}
+/* FancyBox Maps */
+#maps-details {
+  background: #603913;
+  max-width: 670px;
+  display: none;
+  color: #000;
+  width: 100%;
+  padding: 5px;
+  color: #FCE082;
+}
+#maps-details .fancy-wrapper {
+  background: #754C24;
+  border: 1px solid #8c6239;
+  display: table;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+#maps-details .fancy-wrapper iframe {
+  width: 100%;
+  margin-top: 10px;
+}
+#maps-details .fancy-wrapper h3 {
+  font-family: 'DSU_CologneCondenseRegular';
+  margin: 0;
+  font-size: 26px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #FCE082;
+}
+#maps-details .address-area h4 {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* End fancybox maps */
+/* Start FancyBox Treatments */
+#treatments-details {
+  background: #603913;
+  max-width: 670px;
+  display: none;
+  color: #000;
+  width: 100%;
+  padding: 5px;
+  color: #FCE082;
+}
+#treatments-details .fancy-wrapper {
+  background: #754C24;
+  border: 1px solid #8c6239;
+  display: table;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+#treatments-details .fancy-wrapper ul {
+  padding: 0;
+  margin: 0 -15px;
+}
+#treatments-details .fancy-wrapper img {
+  width: 100%;
+  margin-top: 10px;
+}
+#treatments-details .fancy-wrapper h3 {
+  font-family: 'DSU_CologneCondenseRegular';
+  margin: 0;
+  font-size: 26px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #FCE082;
+}
+#treatments-details .fancy-wrapper .content p {
+  color: #fff;
+  text-align: justify;
+}
+#treatments-details .fancy-wrapper .left-price {
+  text-align: left;
+}
+#treatments-details .fancy-wrapper .right-price {
+  text-align: right;
+}
+#treatments-details h4 {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* End fncybox treatments */
+/* End fancybox style */
 /* Start Main-Header */
 .page-wrapper {
   max-width: 1600px;
@@ -133,7 +230,7 @@ a:hover {
   left: 0;
   right: 0;
   opacity: 0.15;
-  z-index: -1;
+  z-index: 0;
 }
 .pattern.header {
   height: 102px;

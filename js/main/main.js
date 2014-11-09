@@ -33,8 +33,8 @@ $(function() {
 
 		});
 
+		$('.fancybox').fancybox();
+
 	});
-
-
 
 });

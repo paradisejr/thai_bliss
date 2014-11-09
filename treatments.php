@@ -27,12 +27,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">AROMATHERAPY OIL MASSAGES</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">AROMATHERAPY OIL MASSAGES</a></h3>
 							<p>
 								A deeply therapeutic treatment combines long smooth
 								strokes and gentle kneading to
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -63,12 +63,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">THAI BLISS AROMA OIL MASSAGE</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">THAI BLISS AROMA OIL MASSAGE</a></h3>
 							<p>
 								Our exclusive Privileged Thai Bliss Aromatherapy
 								massage combines
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -99,12 +99,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">REMEDIAL MASSAGE</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">REMEDIAL MASSAGE</a></h3>
 							<p>
 								A combination of modalities – Imagine a Swedish
 								massage blended with deep
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -135,12 +135,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">SWEDISH MASSAGE</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">SWEDISH MASSAGE</a></h3>
 							<p>
 								A European style massage combines the use of oil
 								with long strokes using kneading
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -171,12 +171,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">DEEP TISSUE MASSAGE</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">DEEP TISSUE MASSAGE</a></h3>
 							<p>
 								For those who enjoy intense bodywork, deep rhythmic
 								massage relieves muscular
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -207,12 +207,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">HOT HERBAL COMPRESS</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">HOT HERBAL COMPRESS</a></h3>
 							<p>
 								The typical compress houses traditional herbs
 								from the gardens of Thailand
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -237,12 +237,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">TRADITIONAL THAI MASSAGES</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">TRADITIONAL THAI MASSAGES</a></h3>
 							<p>
 								This is a massage that has a firm base in traditional
 								Thai holistic philosophy
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -273,12 +273,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">STONE MASSAGE</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">STONE MASSAGE</a></h3>
 							<p>
 								The treatment is inspired by the healing rituals of
 								East and West. An ancient
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -307,12 +307,12 @@ include 'inc/header.php';
 					</div>
 					<div class="col-sm-12">
 						<div class="content">
-							<h3><a href="">FOOT REFLEXOLOGY MASSAGE</a></h3>
+							<h3><a class="fancybox" href="#treatments-details">FOOT REFLEXOLOGY MASSAGE</a></h3>
 							<p>
 								In oriental philosophy, the feet are considered a mirror
 								for the systems and functions
 							</p>
-							<a href="">More..</a>
+							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
 					<div class="col-sm-9 col-xs-9">
@@ -329,6 +329,49 @@ include 'inc/header.php';
 					</div>
 				</div>
 			</div>
+
+			<!-- Start FancyBox Maps -->
+			<div id="treatments-details">
+				<div class="fancy-wrapper">
+					<h3>AROMATHERAPY OIL MASSAGES</h3>
+
+					<div class="col-md-7 col-sm-7">
+						<img src="img/item-products-1.jpg" alt="">
+					</div>
+					<div class="col-md-5 col-sm-5">
+
+						<div class="content">
+							<h4><a href="">AROMATHERAPY OIL MASSAGES</a></h4>
+							<p>
+								A deeply therapeutic treatment combines long
+								smooth strokes and gentle kneading to create
+								a feeling of physical relaxation and calm, whilst
+								strengthening the body’s vital energy so you
+								emerge with renewed spirit and cleared mind.
+								Truly a perfect way to end the day.
+							</p>
+						</div>
+
+						<div class="col-sm-9 col-xs-9">
+							<ul class="left-time">
+								<li>30 minutes</li>
+								<li>1 hour</li>
+								<li>1 hour 30 minutes</li>
+								<li>2 hour</li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-3">
+							<ul class="right-price">
+								<li>$55</li>
+								<li>$89</li>
+								<li>$119</li>
+								<li>$159</li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- end fancy-wrapper -->
+			</div> <!-- end maps details -->
+			<!-- end FancyBox Maps -->
 
 		</div> <!-- end row item -->
 
