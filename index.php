@@ -69,10 +69,10 @@ include 'inc/header.php';
 			<div class="row">
 
 				<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item"><span class="menu-bar active"><a href="">Massage Treatments</a></span></div>
-					<div class="item"><span class="menu-bar"><a href="">Gift Certificates</a></span></div>
-					<div class="item"><span class="menu-bar"><a href="">Special offers</a></span></div>
-					<div class="item"><span class="menu-bar"><a href="">Memberships</a></span></div>
+					<div class="item"><span class="menu-bar active"><a href="treatments.php">Massage Treatments</a></span></div>
+					<div class="item"><span class="menu-bar"><a href="offers-gift.php">Gift Certificates</a></span></div>
+					<div class="item"><span class="menu-bar"><a href="offers-special.php">Special offers</a></span></div>
+					<div class="item"><span class="menu-bar"><a href="offers-membership.php">Memberships</a></span></div>
 					<div class="item"><span class="menu-bar"><a href="">Products</a></span></div>
 				</div>
 
