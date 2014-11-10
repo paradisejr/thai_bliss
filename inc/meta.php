@@ -28,12 +28,17 @@
         <link rel="stylesheet" href="js/plugin/zoominoutslider/bannerscollection_zoominout.css" type="text/css">
         <link rel="stylesheet" href="js/plugin/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="js/plugin/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="js/plugin/wow_book/style.css">
+        <link rel="stylesheet" href="js/plugin/wow_book/preview.css">
+        <link rel="stylesheet" href="js/plugin/wow_book/wow_book.css">
         <link rel="stylesheet" href="css/main.css">
+
         <link rel="stylesheet" href="js/plugin/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.min.css">
         <link rel="stylesheet" href="js/plugin/select2-3.5.1/select2.css">
 
         <!-- Main JS -->
-        <script src="js/main/jquery-11.1.1.min.js"></script>
+        <!-- <script src="js/main/jquery-11.1.1.min.js"></script> -->
+        <script src="js/plugin/wow_book/jquery-1.7.1.min.js"></script>
         <script src="js/main/main.js"></script>
 
         <script src="js/plugin/bootstrap/bootstrap.js"></script>
@@ -50,6 +55,11 @@
 
         <script src="js/plugin/fancybox/jquery.fancybox.js" type="text/javascript"></script>
         <script src="js/plugin/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+        <script src="js/plugin/fancybox/jquery.fancybox.js" type="text/javascript"></script>
+
+        <script src="js/plugin/wow_book/modernizr-1.6.min.js"></script>
+        <script src="js/plugin/wow_book/wow_book.min.js"></script>
 
     </head>
 

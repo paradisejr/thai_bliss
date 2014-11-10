@@ -560,6 +560,29 @@ a:hover {
   width: 100%;
 }
 /* end Gallery */
+/* Start Testimony */
+#cover {
+  background: url(../img/cover.jpg) 0 0 no-repeat;
+}
+.nav-control {
+  margin: 20px 0;
+}
+.page-design {
+  border: 1px solid #754c24;
+}
+.page-design img {
+  width: 100%;
+}
+.wrap-book {
+  background: #603913;
+  padding: 10px;
+  border: 1px solid #754c24;
+}
+.wrap-book .wowbook-page-number {
+  color: #fff;
+  font-size: 12px;
+}
+/* end Testimony */
 /* Start Offers */
 .img-respon img {
   width: 100%;
