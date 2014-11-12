@@ -50,7 +50,7 @@ a:hover {
 }
 .facebook {
   position: relative;
-  top: -2px;
+  top: 5px;
   margin-left: 5px;
 }
 .facebook.mini {
@@ -203,12 +203,21 @@ a:hover {
 /* End fancybox style */
 /* Start Main-Header */
 .page-wrapper {
-  max-width: 1600px;
   width: 100%;
   background: #251104;
   margin: 0 auto;
   display: block;
   min-height: 500px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.page-wrapper .pattern {
+  background: url("../img/header-pattern.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100%;
+  opacity: 0.05;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
 }
 .page-wrapper .header-page {
   margin-bottom: 10px;
@@ -224,7 +233,6 @@ a:hover {
   background: url(../img/header-pattern.png) 0 0 repeat;
   width: 100%;
   opacity: 0.5;
-  max-width: 1600px;
   margin: 0 auto;
   position: absolute;
   left: 0;
@@ -263,7 +271,6 @@ a:hover {
 }
 #main-header .logo img {
   width: 100%;
-  max-width: 76px;
 }
 #main-header .logo-text {
   position: relative;
@@ -386,7 +393,6 @@ a:hover {
   color: #8c6239;
   height: 30px;
   width: 100%;
-  max-width: 1600px;
   margin: 0 auto;
   text-align: center;
   line-height: 30px;
@@ -399,6 +405,8 @@ a:hover {
 }
 .page-wrapper .bannerscollection_zoominout.opportune .bottomNav {
   width: 80px !important;
+  bottom: 0;
+  margin: 15px auto 0 !important;
 }
 .textElement21_opportuneFullWidth h3,
 .textElement22_opportuneFullWidth h3 {
@@ -534,7 +542,6 @@ a:hover {
 }
 .item-products .content > a {
   position: relative;
-  top: -5px;
 }
 .item-products .left-time {
   text-align: left;
@@ -557,7 +564,7 @@ a:hover {
 .page-wrapper .fix-slide img {
   margin: 0;
   height: 100%;
-  width: 100%;
+  width: 97%;
 }
 /* end Gallery */
 /* Start Testimony */
@@ -709,6 +716,29 @@ a:hover {
   margin: 0;
 }
 /* end Contacts */
+.bannerscollection_zoominout.opportune .bottomNavButtonOFF {
+  margin: 5px !important;
+}
+.bannerscollection_zoominout.opportune .bottomNav {
+  padding: 0px !important;
+}
+.bottomNav .bottomNavButtonOFF:first-child {
+  margin-left: -4px !important;
+}
+.price-details {
+  display: table;
+  width: 100%;
+}
+.price-details .time {
+  float: left;
+}
+.price-details .price {
+  float: right;
+}
+#youtube-player-container {
+  position: relative;
+  z-index: -100;
+}
 @media (max-width: 992px) {
   #main-header .main-nav {
     display: none;
@@ -869,8 +899,14 @@ a:hover {
   .page-wrapper .pxs_container {
     height: 240px !important;
   }
+  .page-wrapper .pxs_slider .fix-slide {
+    left: 0;
+  }
 }
 @media (max-width: 480px) {
+  .page-wrapper li .fix-slide {
+    left: 2%;
+  }
   body {
     min-width: 320px;
   }
@@ -910,6 +946,9 @@ a:hover {
   }
 }
 @media (max-width: 1023px) {
+  .page-wrapper .bannerscollection_zoominout.opportune .bottomNav {
+    padding-left: 8px;
+  }
   #main-header {
     margin-bottom: 42px;
   }
@@ -940,13 +979,22 @@ a:hover {
     height: 600px;
   }
   .page-wrapper .fix-slide {
-    left: 6%;
-    right: 5%;
+    left: 4%;
   }
   .page-wrapper .fix-slide img {
     width: 90%;
   }
   .textElement21_opportuneFullWidth h3 {
     margin: 20px;
+  }
+}
+@media (min-width: 1601px) {
+  .page-wrapper {
+    min-height: 800px;
+  }
+}
+@media (min-width: 1336px) and (max-width: 1600px) {
+  .page-wrapper {
+    min-height: 627px;
   }
 }

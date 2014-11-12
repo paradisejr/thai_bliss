@@ -29,7 +29,7 @@ include 'inc/header.php';
 </script>
 
 <div class="page-wrapper">
-
+	<div class="pattern"></div>
 	<div class="slide-banner">
 		<div id="bannerscollection_zoominout_opportune">
 			<div class="myloader"></div>

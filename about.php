@@ -4,7 +4,7 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 <div class="page-wrapper">
-
+	<div class="pattern"></div>
 	<div class="container">
 
 		<div class="row">
@@ -59,3 +59,4 @@ include 'inc/header.php';
 </div> <!-- end page-wrapper -->
 
 <?php include 'inc/footer.php'; ?>
+

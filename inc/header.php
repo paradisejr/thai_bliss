@@ -1,14 +1,12 @@
 <header id="main-header">
+
 	<div class="pattern header"></div>
 	<div class="container">
 		<div class="row">
 			<div class="box-logo">
 				<div class="col-xs-12 col-sm-5 col-md-4">
 					<div class="logo">
-						<img src="img/logo.png" alt="">
-					</div>
-					<div class="logo-text">
-						<img src="img/logo-text.png" alt="">
+						<a href="index.php"><img src="img/logo.png" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -18,7 +16,7 @@
 						<ul>
 							<li><a href="">Tel: 02-6262-9297</a><i class="icon tel"></i></li>
 							<li><a class="fancybox" href="#maps-details">Maps</a><i class="icon maps"></i></li>
-							<li><a href="">Sound</a><i class="icon sound"></i></li>
+							<li><a id="play" href="javascript:" onClick='jQuery("#youtube-player-container").tubeplayer("pause")'>Sound</a><i class="icon sound"></i></li>
 							<li>
 								<a href="">
 									<img class="facebook" src="img/icon/icon-facebook.png" alt="">
@@ -113,4 +111,5 @@
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->
+	<div id='youtube-player-container'> </div>
 </header>

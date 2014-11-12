@@ -4,7 +4,7 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 <div class="page-wrapper">
-
+	<div class="pattern"></div>
 	<div class="container">
 
 		<div class="row">
@@ -35,20 +35,28 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$55</li>
-							<li>$89</li>
-							<li>$119</li>
-							<li>$159</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 minutes</span>
+								<span class="price">$55</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$119</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$159</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -71,20 +79,28 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$55</li>
-							<li>$89</li>
-							<li>$119</li>
-							<li>$159</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 minutes</span>
+								<span class="price">$55</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$119</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$159</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -107,20 +123,28 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$55</li>
-							<li>$89</li>
-							<li>$119</li>
-							<li>$159</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 minutes</span>
+								<span class="price">$55</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$119</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$159</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -143,20 +167,28 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$55</li>
-							<li>$89</li>
-							<li>$119</li>
-							<li>$159</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 minutes</span>
+								<span class="price">$55</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$119</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$159</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -179,20 +211,28 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$55</li>
-							<li>$89</li>
-							<li>$119</li>
-							<li>$159</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 minutes</span>
+								<span class="price">$55</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$89</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$119</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$159</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -215,14 +255,12 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>Add to any massage for only</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$20</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">Add to any massage for only</span>
+								<span class="price">$20</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -245,20 +283,24 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$45</li>
-							<li>$75</li>
-							<li>$109</li>
-							<li>$139</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 minutes</span>
+								<span class="price">$45</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$75</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$109</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$139</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -281,18 +323,20 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>1 hour</li>
-							<li>1 hour 30 minutes</li>
-							<li>2 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$109</li>
-							<li>$149</li>
-							<li>$189</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$109</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour 30 minutes</span>
+								<span class="price">$149</span>
+							</li>
+							<li class="price-details">
+								<span class="time">2 hour</span>
+								<span class="price">$189</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -315,16 +359,16 @@ include 'inc/header.php';
 							<a class="fancybox" href="#treatments-details">More..</a>
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-9">
-						<ul class="left-time">
-							<li>30 minutes</li>
-							<li>1 hour</li>
-						</ul>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<ul class="right-price">
-							<li>$45</li>
-							<li>$75</li>
+					<div class="col-sm-12 col-xs-12">
+						<ul>
+							<li class="price-details">
+								<span class="time">30 hour</span>
+								<span class="price">$45</span>
+							</li>
+							<li class="price-details">
+								<span class="time">1 hour</span>
+								<span class="price">$75</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -351,21 +395,28 @@ include 'inc/header.php';
 								Truly a perfect way to end the day.
 							</p>
 						</div>
-
-						<div class="col-sm-9 col-xs-9">
-							<ul class="left-time">
-								<li>30 minutes</li>
-								<li>1 hour</li>
-								<li>1 hour 30 minutes</li>
-								<li>2 hour</li>
-							</ul>
-						</div>
-						<div class="col-sm-3 col-xs-3">
-							<ul class="right-price">
-								<li>$55</li>
-								<li>$89</li>
-								<li>$119</li>
-								<li>$159</li>
+						<div class="col-sm-12 col-xs-12">
+							<ul>
+								<li class="price-details">
+									<span class="time">30 minutes</span>
+									<span class="price">$55</span>
+								</li>
+								<li class="price-details">
+									<span class="time">1 hour</span>
+									<span class="price">$89</span>
+								</li>
+								<li class="price-details">
+									<span class="time">1 hour</span>
+									<span class="price">$89</span>
+								</li>
+								<li class="price-details">
+									<span class="time">1 hour 30 minutes</span>
+									<span class="price">$119</span>
+								</li>
+								<li class="price-details">
+									<span class="time">2 hour</span>
+									<span class="price">$159</span>
+								</li>
 							</ul>
 						</div>
 					</div>

@@ -11,6 +11,7 @@ include 'inc/header.php';
 </script>
 
 <div class="page-wrapper">
+	<div class="pattern"></div>
 
 	<div class="container">
 

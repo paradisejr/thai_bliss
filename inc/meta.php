@@ -61,6 +61,8 @@
         <script src="js/plugin/wow_book/modernizr-1.6.min.js"></script>
         <script src="js/plugin/wow_book/wow_book.min.js"></script>
 
+        <script src="js/plugin/jQuery.tubeplayer.min.js"></script>
+
     </head>
 
     <body>

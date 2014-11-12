@@ -4,7 +4,7 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 <div class="page-wrapper">
-
+	<div class="pattern"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

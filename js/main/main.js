@@ -1,5 +1,19 @@
 $(function() {
 
+	jQuery("#youtube-player-container").tubeplayer({
+		autoPlay: true,
+		width: 1, // the width of the player
+		height: 1, // the height of the player
+		allowFullScreen: "true", // true by default, allow user to go full screen
+		initialVideo: "Jq3htwznGJk", // the video that is loaded into the player
+		preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
+		onPlay: function(id){}, // after the play method is called
+		onPause: function(){}, // after the pause method is called
+		onStop: function(){}, // after the player is stopped
+		onSeek: function(time){}, // after the video has been seeked to a defined point
+		onMute: function(){}, // after the player is muted
+		onUnMute: function(){} // after the player is unmuted
+	});
 
 
 	$(window).resize(function (){
@@ -34,6 +48,10 @@ $(function() {
 		});
 
 		$('.fancybox').fancybox();
+
+		$("#play").click(function(){
+		  $("#youtube-player-container").toggle();
+		});
 
 	});
 
