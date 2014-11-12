@@ -100,6 +100,10 @@ include 'inc/header.php';
 								<textarea type="email" class="form-control" id="inputEmail3" placeholder="Message"></textarea>
 							</div>
 						</div>
+						<div class="col-md-8 col-md-offset-4 set-pd">
+							<button type="button" class="btn btn-warning">Send</button>
+							<button type="button" class="btn btn-warning">Reset</button>
+						</div>
 					</form>
 				</div>
 

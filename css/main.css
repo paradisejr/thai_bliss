@@ -739,6 +739,13 @@ a:hover {
   position: relative;
   z-index: -100;
 }
+.btn-warning {
+  background-color: #fce082;
+  color: #603913;
+}
+.set-pd {
+  padding-left: 10px !important;
+}
 @media (max-width: 992px) {
   #main-header .main-nav {
     display: none;
