@@ -5,7 +5,7 @@ $(function() {
 		width: 1, // the width of the player
 		height: 1, // the height of the player
 		allowFullScreen: "true", // true by default, allow user to go full screen
-		initialVideo: "Jq3htwznGJk", // the video that is loaded into the player
+		initialVideo: "7YpZrylt8_E", // the video that is loaded into the player
 		preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
 		onPlay: function(id){}, // after the play method is called
 		onPause: function(){}, // after the pause method is called
@@ -31,6 +31,7 @@ $(function() {
 	$(document).ready(function() {
 
 		var owl = $("#owl-demo");
+		var owl2 = $("#owl-demo2");
 
 		owl.owlCarousel({
 			itemsCustom : [
@@ -38,20 +39,29 @@ $(function() {
 			[450, 2],
 			[600, 3],
 			[700, 3],
-			[1000, 3],
+			[1000, 1],
 			[1200, 5],
 			[1400, 5],
 			[1600, 5]
+			],
+			navigation : false,
+			pagination : false
+
+		});
+
+		owl2.owlCarousel({
+			itemsCustom : [
+			[0, 1],
+			[450, 1],
+			[600, 1],
+			[700, 1],
+			[1000, 1]
 			],
 			navigation : false
 
 		});
 
 		$('.fancybox').fancybox();
-
-		$("#play").click(function(){
-		  $("#youtube-player-container").toggle();
-		});
 
 	});
 

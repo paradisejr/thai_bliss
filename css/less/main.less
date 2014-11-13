@@ -24,7 +24,7 @@ a {
 	max-width: 975px;
 }
 
-
+.row.mg0 {margin: 0;}
 
 /* Start icon */
 .icon {
@@ -47,6 +47,11 @@ a {
 
 	&.sound {
 		background: url(../img/icon/icon-sound.png) 0 0 no-repeat;
+		width: 16px;
+	}
+
+	&.sound-off {
+		background: url(../img/icon/icon-sound-off.png) 0 0 no-repeat;
 		width: 16px;
 	}
 
@@ -714,6 +719,13 @@ a {
 .page-design {
 	border: 1px solid #754c24;
 
+	&.slide {
+		background: none repeat scroll 0 0 #1d1d1d;
+		border: 2px solid #754c24;
+		margin: 0 5px;
+		padding: 5px;
+	}
+
 	img {
 		width: 100%;
 	}
@@ -728,6 +740,10 @@ a {
 		color: #fff;
 		font-size: 12px;
 	}
+}
+
+#owl-demo2 {
+	display: none !important;
 }
 
 /* end Testimony */
@@ -929,8 +945,8 @@ a {
 }
 
 #youtube-player-container {
-position: relative;
-z-index: -100;
+	position: relative;
+	z-index: -100;
 }
 
 .btn-warning {
@@ -1032,7 +1048,7 @@ z-index: -100;
 		width: 70%;
 	}
 	#main-header .logo {
-		text-align: right;
+		text-align: center;
 	}
 	#main-header .logo-text {
 		text-align: left;
@@ -1043,7 +1059,7 @@ z-index: -100;
 	}
 
 	#main-header .contact {
-		margin-top: 10px;
+		margin-top: 0;
 		text-align: center;
 
 		ul {
@@ -1189,10 +1205,46 @@ z-index: -100;
 
 }
 
+/* Styling Pagination*/
+
+.owl-pagination {
+	text-align: center;
+}
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #8c6239;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
 @media (max-width: 767px) {
 	.textElement21_opportuneFullWidth, .textElement22_opportuneFullWidth,
 	.bannerControls, .thumbsHolderWrapper, .mycanvas {
 		display: none;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.page-wrapper {
+		min-height: 841px !important;
 	}
 }
 
@@ -1205,9 +1257,18 @@ z-index: -100;
 	.page-wrapper .pxs_container {
 		height: 470px;
 	}
+
 }
 
 @media (max-width: 1023px) {
+	#container {
+		display: none;
+	}
+
+	#owl-demo2 {
+		display: block !important;
+	}
+
 	.page-wrapper .bannerscollection_zoominout.opportune .bottomNav {
 		padding-left: 8px;
 	}

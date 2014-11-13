@@ -24,7 +24,6 @@ include 'inc/header.php';
 			thumbsWrapperMarginTop:25
 		});
 
-
 	});
 </script>
 
@@ -75,14 +74,6 @@ include 'inc/header.php';
 					<div class="item"><span class="menu-bar"><a href="offers-membership.php">Memberships</a></span></div>
 					<div class="item"><span class="menu-bar"><a href="">Products</a></span></div>
 				</div>
-
-				<!-- <ul>
-					<li class="menu-bar active"><a href="">Massage Treatments</a></li>
-					<li class="menu-bar"><a href="">Gift Certificates</a></li>
-					<li class="menu-bar"><a href="">Special offers</a></li>
-					<li class="menu-bar"><a href="">Memberships</a></li>
-					<li class="menu-bar"><a href="">Products</a></li>
-				</ul> -->
 
 			</div>
 

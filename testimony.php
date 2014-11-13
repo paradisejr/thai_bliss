@@ -82,9 +82,39 @@ include 'inc/header.php';
 					</ul>
 				</nav>
 
+			</div> <!-- end #container -->
+
+			<div id="owl-demo2" class="owl-carousel owl-theme">
+				<div class="item">
+					<div class='page-design slide'>
+						<img src="img/testimony-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="item">
+					<div class='page-design slide'>
+						<img src="img/testimony-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="item">
+					<div class='page-design slide'>
+						<img src="img/testimony-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="item">
+					<div class='page-design slide'>
+						<img src="img/testimony-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="item">
+					<div class='page-design slide'>
+						<img src="img/testimony-1.jpg" alt="">
+					</div>
+				</div>
+
 			</div>
 
 		</div>
+
 	</div>
 </div> <!-- end page-wrapper -->
 

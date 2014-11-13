@@ -2,7 +2,7 @@
 
 	<div class="pattern header"></div>
 	<div class="container">
-		<div class="row">
+		<div class="row mg0">
 			<div class="box-logo">
 				<div class="col-xs-12 col-sm-5 col-md-4">
 					<div class="logo">
@@ -16,7 +16,7 @@
 						<ul>
 							<li><a href="">Tel: 02-6262-9297</a><i class="icon tel"></i></li>
 							<li><a class="fancybox" href="#maps-details">Maps</a><i class="icon maps"></i></li>
-							<li><a id="play" href="javascript:" onClick='jQuery("#youtube-player-container").tubeplayer("pause")'>Sound</a><i class="icon sound"></i></li>
+							<li class="check"><a href="javascript:" data-set="0" onClick='over_click($(this))'>Sound</a><img src="img/icon/icon-sound.png" alt=""></li>
 							<li>
 								<a href="">
 									<img class="facebook" src="img/icon/icon-facebook.png" alt="">
@@ -112,4 +112,19 @@
 		</div> <!-- end row -->
 	</div> <!-- end container -->
 	<div id='youtube-player-container'> </div>
+
+	<script>
+		function over_click (a) {
+			var v = a.attr( 'data-set' );
+			if ( v == 0 ) {
+				jQuery("#youtube-player-container").tubeplayer("pause");
+				a.attr( 'data-set', 1 );
+			$('.check img').attr( 'src' ,'img/icon/icon-sound-off.png' ); // pause
+		} else {
+			jQuery("#youtube-player-container").tubeplayer("play");
+			a.attr( 'data-set', 0 )
+			$('.check img').attr( 'src' ,'img/icon/icon-sound.png' ); // play
+		}
+	}
+	</script>
 </header>
