@@ -244,6 +244,7 @@ a {
 		font-weight: bold;
 		font-size: 12px;
 		text-transform: uppercase;
+		margin: 10px 0 5px;
 	}
 
 }
@@ -374,6 +375,16 @@ a {
 		li {
 			padding: 0 25px 0 0;
 
+			&.check {
+				padding-right: 5px;
+
+				img {
+					margin-left: 3px;
+					position: relative;
+					top: 2px;
+				}
+			}
+
 			&:last-child {
 				padding: 0;
 			}
@@ -407,7 +418,7 @@ a {
 				&.active, &:hover {
 					border-radius: 5px;
 					border: 1px solid #dedede;
-					margin: 7px;
+					margin: 0 7px;
 
 					a {
 						color: #dedede;

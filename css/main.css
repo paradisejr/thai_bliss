@@ -205,6 +205,7 @@ a:hover {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
+  margin: 10px 0 5px;
 }
 /* End fncybox treatments */
 /* End fancybox style */
@@ -308,6 +309,14 @@ a:hover {
 #main-header .contact li {
   padding: 0 25px 0 0;
 }
+#main-header .contact li.check {
+  padding-right: 5px;
+}
+#main-header .contact li.check img {
+  margin-left: 3px;
+  position: relative;
+  top: 2px;
+}
 #main-header .contact li:last-child {
   padding: 0;
 }
@@ -333,7 +342,7 @@ a:hover {
 #main-header .main-nav li.nav-bar:hover {
   border-radius: 5px;
   border: 1px solid #dedede;
-  margin: 7px;
+  margin: 0 7px;
 }
 #main-header .main-nav li.nav-bar.active a,
 #main-header .main-nav li.nav-bar:hover a {
