@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="image_src" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="image_src" href="img/favicon.ico">
 
     <!--[if IE]>
         <script src="js/main/html5shiv.js"></script>

@@ -72,6 +72,7 @@
 						<ul>
 							<li class="nav-bar <?php if ( $page_name == 'home') { echo 'active'; } ?>"><a href="index.php">Home</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'about') { echo 'active'; } ?>"><a href="about.php">About Us</a></li>
+							<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'treatments') { echo 'active'; } ?>"><a href="treatments.php">TreatMents</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'gallery') { echo 'active'; } ?>"><a href="gallery.php">Gallery</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'testimony') { echo 'active'; } ?>"><a href="testimony.php">Testimony</a></li>
@@ -95,6 +96,7 @@
 				<ul>
 					<li class="nav-bar <?php if ( $page_name == 'home') { echo 'active'; } ?>"><a href="index.php">Home</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'about') { echo 'active'; } ?>"><a href="about.php">About Us</a></li>
+					<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'treatments') { echo 'active'; } ?>"><a href="treatments.php">TreatMents</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'gallery') { echo 'active'; } ?>"><a href="gallery.php">Gallery</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'testimony') { echo 'active'; } ?>"><a href="testimony.php">Testimony</a></li>
