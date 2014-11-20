@@ -334,8 +334,8 @@ a:hover {
 }
 #main-header .main-nav li.nav-bar {
   text-align: center;
-  padding: 0 3px;
-  margin: 0 5px;
+  padding: 0 1px;
+  margin: 0 2px;
 }
 #main-header .main-nav li.nav-bar a {
   display: block;
@@ -345,7 +345,7 @@ a:hover {
 #main-header .main-nav li.nav-bar:hover {
   border-radius: 5px;
   border: 1px solid #dedede;
-  margin: 0 4px;
+  margin: 0 1px;
 }
 #main-header .main-nav li.nav-bar.active a,
 #main-header .main-nav li.nav-bar:hover a {
@@ -507,6 +507,7 @@ a:hover {
 /* end Home Page */
 /* Start About Us */
 .box-content {
+  line-height: 20px;
   color: #fff;
   font-size: 13px;
   text-align: justify;
@@ -681,6 +682,7 @@ a:hover {
 .content-faqs p {
   color: #fff;
   font-size: 16px;
+  line-height: 24px;
 }
 /* end FAQS */
 /* Start Contacts */
@@ -724,6 +726,9 @@ a:hover {
 }
 .contact-box .maps-area iframe {
   width: 100%;
+}
+.contact-box .address-area {
+  line-height: 20px;
 }
 .contact-box .address-area h4 {
   font-size: 20px;
@@ -791,7 +796,7 @@ a:hover {
     width: 100%;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar {
-    width: 10.5%;
+    width: 9.5%;
     border: none;
     margin: 0;
   }

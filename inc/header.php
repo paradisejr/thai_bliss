@@ -67,13 +67,13 @@
 						<span>Shop 2, Childers Square (University Avenue Side) 14 Childers Street, Canberra City ACT</span>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" style="margin-right: -6px;">
 					<div class="main-nav">
 						<ul>
 							<li class="nav-bar <?php if ( $page_name == 'home') { echo 'active'; } ?>"><a href="index.php">Home</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'about') { echo 'active'; } ?>"><a href="about.php">About Us</a></li>
-							<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'treatments') { echo 'active'; } ?>"><a href="treatments.php">TreatMents</a></li>
+							<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'gallery') { echo 'active'; } ?>"><a href="gallery.php">Gallery</a></li>
 							<li class="nav-bar <?php if ( $page_name == 'testimony') { echo 'active'; } ?>"><a href="testimony.php">Testimony</a></li>
 							<li class="nav-bar submenu <?php if ( $page_name == 'offers') { echo 'active'; } ?>"><a href="offers-gift.php">Offers</a>
@@ -96,8 +96,8 @@
 				<ul>
 					<li class="nav-bar <?php if ( $page_name == 'home') { echo 'active'; } ?>"><a href="index.php">Home</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'about') { echo 'active'; } ?>"><a href="about.php">About Us</a></li>
-					<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'treatments') { echo 'active'; } ?>"><a href="treatments.php">TreatMents</a></li>
+					<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'gallery') { echo 'active'; } ?>"><a href="gallery.php">Gallery</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'testimony') { echo 'active'; } ?>"><a href="testimony.php">Testimony</a></li>
 					<li class="nav-bar submenu <?php if ( $page_name == 'offers') { echo 'active'; } ?>"><a href="offers-gift.php">Offers</a>
@@ -128,5 +128,5 @@
 			$('.check img').attr( 'src' ,'img/icon/icon-sound.png' ); // play
 		}
 	}
-	</script>
+</script>
 </header>
