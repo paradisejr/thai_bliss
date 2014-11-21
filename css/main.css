@@ -276,7 +276,7 @@ a:hover {
   display: inline-block;
 }
 #main-header .logo {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 #main-header .logo img {
   width: 100%;
@@ -334,22 +334,25 @@ a:hover {
 }
 #main-header .main-nav li.nav-bar {
   text-align: center;
-  padding: 0 1px;
+  padding: 0 0px;
   margin: 0 2px;
 }
 #main-header .main-nav li.nav-bar a {
   display: block;
-  line-height: 18px;
+  font-size: 19px;
+  line-height: 19px;
+  color: #dedede;
+  padding: 0 5px;
 }
 #main-header .main-nav li.nav-bar.active,
 #main-header .main-nav li.nav-bar:hover {
   border-radius: 5px;
-  border: 1px solid #dedede;
+  border: 1px solid #fce082;
   margin: 0 1px;
 }
 #main-header .main-nav li.nav-bar.active a,
 #main-header .main-nav li.nav-bar:hover a {
-  color: #dedede;
+  color: #fce082;
 }
 #main-header .main-nav li.nav-bar:hover ul.sub-menu {
   display: block;
@@ -372,7 +375,7 @@ a:hover {
   position: absolute;
   text-align: left;
   top: 23px;
-  width: 135px;
+  width: 175px;
   border-radius: 0 5px 5px 5px;
   z-index: 500;
 }
@@ -399,7 +402,7 @@ a:hover {
   left: 0;
   position: absolute;
   top: -4px;
-  width: 44px;
+  width: 53px;
   z-index: 9999;
 }
 .submenu:hover .sub-menu:before {
@@ -610,7 +613,7 @@ a:hover {
 .wrap-book {
   background: #603913;
   padding: 10px;
-  border: 1px solid #754c24;
+  border: 1px solid rgba(252, 224, 130, 0.6);
 }
 .wrap-book .wowbook-page-number {
   color: #fff;
@@ -791,14 +794,17 @@ a:hover {
     display: block;
   }
   #main-header .main-nav.menu-respon ul {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 10px;
     width: 100%;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar {
-    width: 9.5%;
+    width: 10.4%;
     border: none;
     margin: 0;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar a {
+    padding: 0 3px;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar.active > a {
     border: 1px solid #dedede;
@@ -818,7 +824,7 @@ a:hover {
     top: 20px;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar .sub-menu:before {
-    width: 74px;
+    width: 73px;
     top: -5px;
   }
 }

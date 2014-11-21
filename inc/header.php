@@ -4,13 +4,13 @@
 	<div class="container">
 		<div class="row mg0">
 			<div class="box-logo">
-				<div class="col-xs-12 col-sm-5 col-md-4">
+				<div class="col-xs-12 col-sm-5 col-md-3">
 					<div class="logo">
 						<a href="index.php"><img src="img/logo.png" alt=""></a>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-7 col-md-8 ">
+			<div class="col-xs-12 col-sm-7 col-md-9">
 				<div class="row">
 					<div class="contact">
 						<ul>

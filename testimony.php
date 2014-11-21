@@ -25,7 +25,7 @@ include 'inc/header.php';
 				<div id="main">
 
 					<div id='features'>
-						<div id='cover'>
+						<div id='cover' style="border: 2px solid rgba(252, 224, 130, 0.6);">
 						</div>
 						<div class="wrap-book">
 							<div class='page-design'>
