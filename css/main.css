@@ -339,10 +339,10 @@ a:hover {
 }
 #main-header .main-nav li.nav-bar a {
   display: block;
-  font-size: 19px;
+  font-size: 21px;
   line-height: 19px;
   color: #dedede;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 #main-header .main-nav li.nav-bar.active,
 #main-header .main-nav li.nav-bar:hover {
@@ -784,8 +784,17 @@ a:hover {
   padding-left: 10px !important;
 }
 @media (max-width: 992px) {
+  #main-header .contact {
+    margin-top: 10px;
+  }
+  #main-header .address span {
+    line-height: 22px;
+  }
   .nav-bar.submenu.active > a {
     border: none !important;
+  }
+  #main-header .main-nav li ul.sub-menu {
+    width: 185px;
   }
   #main-header .main-nav {
     display: none;
@@ -799,12 +808,11 @@ a:hover {
     width: 100%;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar {
-    width: 10.4%;
     border: none;
     margin: 0;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar a {
-    padding: 0 3px;
+    padding: 0 6px;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar.active > a {
     border: 1px solid #dedede;
@@ -813,9 +821,7 @@ a:hover {
   #main-header .main-nav.menu-respon ul li.nav-bar a:hover {
     border-radius: 5px;
     border: 1px solid #dedede;
-  }
-  #main-header .main-nav.menu-respon ul li.nav-bar:hover {
-    height: 21px;
+    margin: 0 -1px;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar.submenu a:hover {
     border: none;
@@ -823,8 +829,14 @@ a:hover {
   #main-header .main-nav.menu-respon ul li.nav-bar .sub-menu {
     top: 20px;
   }
-  #main-header .main-nav.menu-respon ul li.nav-bar .sub-menu:before {
-    width: 73px;
+  #main-header .main-nav.menu-respon ul li.nav-bar .sub-menu a {
+    color: #dedede;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar .sub-menu a:hover {
+    color: #fce082;
+  }
+  #main-header .main-nav.menu-respon ul .sub-menu:before {
+    width: 59px;
     top: -5px;
   }
 }
@@ -900,9 +912,10 @@ a:hover {
     border-radius: 0;
     display: block;
     opacity: 0.5;
+    padding: 0 0 0 7px;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar.active a {
-    padding: 0 0 0 15px;
+    padding: 0 0 0 7px;
     border-radius: 0;
     border: none;
     line-height: 26px;
@@ -1013,6 +1026,9 @@ a:hover {
   .mycanvas {
     display: none;
   }
+  #main-header .logo {
+    margin-top: 8px;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .page-wrapper {
@@ -1050,12 +1066,12 @@ a:hover {
   }
   .pxs_navigation span.pxs_next {
     position: absolute;
-    right: 40% !important;
+    right: 38% !important;
     margin: 0;
   }
   .pxs_navigation span.pxs_prev {
     position: absolute;
-    left: 40% !important;
+    left: 38% !important;
   }
   .pxs_thumbnails {
     display: none;
@@ -1085,4 +1101,10 @@ a:hover {
   .page-wrapper {
     min-height: 627px;
   }
+}
+#main-header .main-nav li ul.sub-menu li a {
+  color: #dedede;
+}
+#main-header .main-nav li ul.sub-menu li a:hover {
+  color: #fce082;
 }

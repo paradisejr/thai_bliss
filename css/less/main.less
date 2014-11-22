@@ -415,10 +415,10 @@ a {
 
 				a {
 					display: block;
-					font-size: 19px;
+					font-size: 21px;
 					line-height: 19px;
 					color: #dedede;
-					padding: 0 5px;
+					padding: 0 2px;
 				}
 
 				&.active, &:hover {
@@ -981,8 +981,19 @@ a {
 
 @media (max-width:992px) {
 
+	#main-header .contact {
+		margin-top: 10px;
+	}
+
+	#main-header .address span {
+		line-height: 22px;
+	}
+
 	.nav-bar.submenu.active > a {
 		border: none !important;
+	}
+	#main-header .main-nav li ul.sub-menu {
+		width: 185px;
 	}
 
 	#main-header {
@@ -999,12 +1010,12 @@ a {
 					width: 100%;
 
 					li.nav-bar {
-						width: 10.4%;
+						// width: 10.4%;
 						border: none;
 						margin: 0;
 
 						a {
-							padding: 0 3px;
+							padding: 0 6px;
 						}
 
 						&.active > a {
@@ -1015,11 +1026,12 @@ a {
 						a:hover {
 							border-radius: 5px;
 							border: 1px solid #dedede;
+							margin: 0 -1px;
 						}
 
-						&:hover {
-							height: 21px;
-						}
+						// &:hover {
+						// 	height: 21px;
+						// }
 
 						&.submenu {
 							a:hover {
@@ -1029,12 +1041,19 @@ a {
 
 						.sub-menu {
 							top: 20px;
-						}
 
-						.sub-menu:before {
-							width: 73px;
-							top: -5px;
+							a {
+								color: #dedede;
+								&:hover {
+									color: #fce082;
+								}
+							}
 						}
+					}
+
+					.sub-menu:before {
+						width: 59px;
+						top: -5px;
 					}
 				}
 			}
@@ -1124,11 +1143,12 @@ a {
 					border-radius: 0;
 					display: block;
 					opacity: 0.5;
+					padding: 0 0 0 7px;
 				}
 
 				&.active a {
 					// background: #180b02;
-					padding: 0 0 0 15px;
+					padding: 0 0 0 7px;
 					border-radius: 0;
 					border: none;
 					line-height: 26px;
@@ -1270,6 +1290,9 @@ a {
 	.bannerControls, .thumbsHolderWrapper, .mycanvas {
 		display: none;
 	}
+	#main-header .logo {
+		margin-top: 8px;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -1324,13 +1347,13 @@ a {
 
 		span.pxs_next {
 			position: absolute;
-			right: 40% !important;
+			right: 38% !important;
 			margin: 0;
 		}
 
 		span.pxs_prev {
 			position: absolute;
-			left: 40% !important;
+			left: 38% !important;
 		}
 
 	}
@@ -1375,5 +1398,13 @@ a {
 	}
 }
 
+#main-header .main-nav li ul.sub-menu li {
+	a {
+		color: #dedede;
 
+		&:hover {
+			color: #fce082;
+		}
+	}
+}
 
