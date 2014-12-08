@@ -772,8 +772,7 @@ a:hover {
   float: right;
 }
 #youtube-player-container {
-  position: relative;
-  z-index: -100;
+  visibility: hidden;
 }
 .btn-warning {
   background-color: #fce082;
