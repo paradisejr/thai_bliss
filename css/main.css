@@ -150,6 +150,9 @@ a:hover {
   text-transform: uppercase;
   border-bottom: 1px dotted #FCE082;
 }
+#maps-details .address-area {
+  margin-top: 10px;
+}
 #maps-details .address-area h4 {
   font-weight: bold;
   font-size: 12px;
