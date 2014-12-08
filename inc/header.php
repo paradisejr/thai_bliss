@@ -113,7 +113,7 @@
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->
-	<div id='youtube-player-container'> </div>
+	<!-- <div id='youtube-player-container'> </div> -->
 
 	<script>
 		function over_click (a) {
