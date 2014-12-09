@@ -44,14 +44,14 @@
 										14 Childers Street, Canberra City  ACT
 									</p>
 									<span class="text">Phone :</span>
-									<p>02 6262 9297</p>
+									<p>02 6262 9297</p> <br>
 									<span class="text">Email :</span>
 									<p>info@thaiblissmassage.com.au</p>
 
 									<div class="trading-hourse">
 										<span>Trading Hours</span>
 										<p>10am- 10pm</p>
-										<p>Open 7 days a week</p>
+										<p>Open 7 days a week</p> <br>
 										<span>Please call us in advance to avoid any disappointment</span>
 									</div>
 								</div>

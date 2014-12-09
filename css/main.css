@@ -139,8 +139,10 @@ a:hover {
   font-size: 12px;
 }
 #maps-details .fancy-wrapper iframe {
-  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
   margin-top: 10px;
+  width: 100%;
 }
 #maps-details .fancy-wrapper h3 {
   font-family: 'DSU_CologneCondenseRegular';
@@ -157,6 +159,11 @@ a:hover {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
+}
+#maps-details .address-area p {
+  color: #fff;
+  display: inline-block;
+  line-height: 24px;
 }
 /* End fancybox maps */
 /* Start FancyBox Treatments */
