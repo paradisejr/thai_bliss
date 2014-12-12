@@ -57,8 +57,8 @@ $(function() {
 			[700, 1],
 			[1000, 1]
 			],
-			navigation : false
-
+			navigation : true,
+			pagination : false
 		});
 
 		$('.fancybox').fancybox();
