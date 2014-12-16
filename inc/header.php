@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="contact">
 						<ul>
-							<li><a href="">Tel: 02-6262-9297</a><i class="icon tel"></i></li>
+							<li><p>Tel: 02-6262-9297</p><i class="icon tel"></i></li>
 							<li><a class="fancybox" href="#maps-details">Maps</a><i class="icon maps"></i></li>
 							<li class="check"><a href="javascript:" data-set="0" onClick='over_click($(this))'>Sound</a><img src="img/icon/icon-sound.png" alt=""></li>
 							<li>
