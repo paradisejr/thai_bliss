@@ -1133,10 +1133,10 @@ a:hover {
 .pxs_thumbnails {
   display: none;
 }
-.owl-controls.clickable {
+#owl-demo2 .owl-controls.clickable {
   margin-top: 15px;
 }
-.owl-controls.clickable .owl-buttons .owl-prev {
+#owl-demo2 .owl-controls.clickable .owl-buttons .owl-prev {
   font-family: "DSU_CologneCondenseRegular";
   color: #fce082;
   background: rgba(255, 255, 255, 0.1);
@@ -1150,11 +1150,11 @@ a:hover {
   font-size: 16px;
   letter-spacing: 1px;
 }
-.owl-controls.clickable .owl-buttons .owl-prev:hover {
+#owl-demo2 .owl-controls.clickable .owl-buttons .owl-prev:hover {
   color: #fff;
   background: rgba(0, 0, 0, 0.2);
 }
-.owl-controls.clickable .owl-buttons .owl-next {
+#owl-demo2 .owl-controls.clickable .owl-buttons .owl-next {
   font-family: "DSU_CologneCondenseRegular";
   color: #fce082;
   background: rgba(255, 255, 255, 0.1);
@@ -1168,7 +1168,30 @@ a:hover {
   font-size: 16px;
   letter-spacing: 1px;
 }
-.owl-controls.clickable .owl-buttons .owl-next:hover {
+#owl-demo2 .owl-controls.clickable .owl-buttons .owl-next:hover {
   color: #fff;
   background: rgba(0, 0, 0, 0.2);
+}
+#owl-demo .owl-controls.clickable .owl-buttons {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+#owl-demo .owl-controls.clickable .owl-buttons .owl-prev img,
+#owl-demo .owl-controls.clickable .owl-buttons .owl-next img {
+  height: 50px;
+  margin-top: 40px;
+  opacity: 0.8;
+}
+#owl-demo .owl-controls.clickable .owl-buttons .owl-prev img:hover,
+#owl-demo .owl-controls.clickable .owl-buttons .owl-next img:hover {
+  opacity: 1;
+}
+#owl-demo .owl-controls.clickable .owl-buttons .owl-prev {
+  float: left;
+  margin-left: 5px;
+}
+#owl-demo .owl-controls.clickable .owl-buttons .owl-next {
+  float: right;
+  margin-right: 5px;
 }

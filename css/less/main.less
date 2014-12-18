@@ -1436,47 +1436,78 @@ a {
 .pxs_thumbnails {
 	display: none;
 }
+#owl-demo2 {
+	.owl-controls.clickable {
+		margin-top: 15px;
 
-.owl-controls.clickable {
-	margin-top: 15px;
+		.owl-buttons {
+			.owl-prev {
+				font-family: "DSU_CologneCondenseRegular";
+				color: #fce082;
+				background: rgba(255,255,255,0.1);
+				width: 70px;
+				padding: 5px 10px;
+				border-radius: 5px;
+				display: inline-block;
+				float: left;
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 16px;
+				letter-spacing: 1px;
 
-	.owl-buttons {
-		.owl-prev {
-			font-family: "DSU_CologneCondenseRegular";
-			color: #fce082;
-			background: rgba(255,255,255,0.1);
-			width: 70px;
-			padding: 5px 10px;
-			border-radius: 5px;
-			display: inline-block;
-			float: left;
-			text-align: center;
-			text-transform: uppercase;
-			font-size: 16px;
-			letter-spacing: 1px;
+				&:hover {
+					color: #fff;
+					background: rgba(0,0,0,0.2);
+				}
+			}
+			.owl-next {
+				font-family: "DSU_CologneCondenseRegular";
+				color: #fce082;
+				background: rgba(255,255,255,0.1);
+				width: 70px;
+				padding: 5px 10px;
+				border-radius: 5px;
+				display: inline-block;
+				float: right;
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 16px;
+				letter-spacing: 1px;
 
-			&:hover {
-				color: #fff;
-				background: rgba(0,0,0,0.2);
+				&:hover {
+					color: #fff;
+					background: rgba(0,0,0,0.2);
+				}
 			}
 		}
-		.owl-next {
-			font-family: "DSU_CologneCondenseRegular";
-			color: #fce082;
-			background: rgba(255,255,255,0.1);
-			width: 70px;
-			padding: 5px 10px;
-			border-radius: 5px;
-			display: inline-block;
-			float: right;
-			text-align: center;
-			text-transform: uppercase;
-			font-size: 16px;
-			letter-spacing: 1px;
+	}
+}
 
-			&:hover {
-				color: #fff;
-				background: rgba(0,0,0,0.2);
+#owl-demo {
+	.owl-controls.clickable {
+
+		.owl-buttons {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			.owl-prev, .owl-next {
+				img {
+					height: 50px;
+					margin-top: 40px;
+					opacity: 0.8;
+
+					&:hover {
+						opacity: 1;
+					}
+				}
+			}
+			.owl-prev {
+				float: left;
+				margin-left: 5px;
+			}
+			.owl-next {
+				float: right;
+				margin-right: 5px;
 			}
 		}
 	}
