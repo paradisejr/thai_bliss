@@ -800,6 +800,73 @@ a:hover {
   padding-left: 10px !important;
 }
 @media (max-width: 992px) {
+  #main-header .main-nav li.nav-bar a {
+    line-height: 26px !important;
+    padding: 0 0 0 15px;
+  }
+  #main-header .main-nav.menu-respon {
+    background: none repeat scroll 0 0 #552c0e;
+    border-bottom: 1px solid #fce082;
+    border-top: 1px solid #fce082;
+    display: none;
+    position: absolute;
+    top: 154px;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0;
+  }
+  #main-header .main-nav.menu-respon ul {
+    margin: 0;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar {
+    padding: 0;
+    text-align: left;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar a:hover {
+    border-radius: 0;
+    display: block;
+    opacity: 0.5;
+    padding: 0 0 0 7px;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar.active a {
+    padding: 0 0 0 7px;
+    border-radius: 0;
+    border: none;
+    line-height: 26px;
+  }
+  #main-header .main-nav.menu-respon ul ul.sub-menu {
+    margin: 0;
+    display: block;
+    position: relative;
+  }
+  #main-header .main-nav.menu-respon ul ul.sub-menu li.active {
+    border: none;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar > a:hover {
+    border: none;
+  }
+  #main-header .main-nav.menu-respon ul li.nav-bar {
+    width: 100%;
+  }
+  .nav-btn {
+    background-color: #946b4d;
+    border-radius: 2px;
+    top: 21px;
+    color: #0961ba;
+    display: block;
+    font-size: 14px;
+    padding: 8px;
+    position: relative;
+    right: 0;
+    z-index: 500;
+    float: right;
+  }
+  .nav-btn .ico-bar {
+    display: block;
+  }
+  #main-header {
+    margin-bottom: 42px;
+  }
   #main-header .contact {
     margin-top: 10px;
   }
@@ -816,7 +883,7 @@ a:hover {
     display: none;
   }
   #main-header .main-nav.menu-respon {
-    display: block;
+    display: none;
   }
   #main-header .main-nav.menu-respon ul {
     margin-top: 15px;
@@ -901,69 +968,6 @@ a:hover {
   }
   #main-header .contact ul {
     width: 100%;
-  }
-  #main-header .main-nav li.nav-bar a {
-    line-height: 26px !important;
-    padding: 0 0 0 15px;
-  }
-  #main-header .main-nav.menu-respon {
-    background: none repeat scroll 0 0 #552c0e;
-    border-bottom: 1px solid #fce082;
-    border-top: 1px solid #fce082;
-    display: none;
-    position: absolute;
-    top: 154px;
-    z-index: 999;
-    width: 100%;
-    margin-top: 0;
-  }
-  #main-header .main-nav.menu-respon ul {
-    margin: 0;
-  }
-  #main-header .main-nav.menu-respon ul li.nav-bar {
-    padding: 0;
-    text-align: left;
-  }
-  #main-header .main-nav.menu-respon ul li.nav-bar a:hover {
-    border-radius: 0;
-    display: block;
-    opacity: 0.5;
-    padding: 0 0 0 7px;
-  }
-  #main-header .main-nav.menu-respon ul li.nav-bar.active a {
-    padding: 0 0 0 7px;
-    border-radius: 0;
-    border: none;
-    line-height: 26px;
-  }
-  #main-header .main-nav.menu-respon ul ul.sub-menu {
-    margin: 0;
-    display: block;
-    position: relative;
-  }
-  #main-header .main-nav.menu-respon ul ul.sub-menu li.active {
-    border: none;
-  }
-  #main-header .main-nav.menu-respon ul li.nav-bar > a:hover {
-    border: none;
-  }
-  #main-header .main-nav.menu-respon ul li.nav-bar {
-    width: 100%;
-  }
-  .nav-btn {
-    background-color: #946b4d;
-    border-radius: 2px;
-    bottom: -37px;
-    color: #0961ba;
-    display: block;
-    font-size: 14px;
-    padding: 8px;
-    position: absolute;
-    right: 15px;
-    z-index: 500;
-  }
-  .nav-btn .ico-bar {
-    display: block;
   }
   .box-logo {
     text-align: center;
@@ -1072,9 +1076,6 @@ a:hover {
   .page-wrapper .bannerscollection_zoominout.opportune .bottomNav {
     padding-left: 8px;
   }
-  #main-header {
-    margin-bottom: 42px;
-  }
   .page-wrapper {
     min-height: 320px;
   }
@@ -1180,23 +1181,21 @@ a:hover {
   position: absolute;
   top: 0;
 }
-#owl-demo .owl-controls.clickable .owl-buttons .owl-prev img,
-#owl-demo .owl-controls.clickable .owl-buttons .owl-next img {
+#owl-demo .owl-controls.clickable .owl-buttons .owl-prev,
+#owl-demo .owl-controls.clickable .owl-buttons .owl-next {
+  width: 18px;
   height: 50px;
   margin-top: 40px;
-  opacity: 0.8;
-}
-#owl-demo .owl-controls.clickable .owl-buttons .owl-prev img:hover,
-#owl-demo .owl-controls.clickable .owl-buttons .owl-next img:hover {
-  opacity: 1;
 }
 #owl-demo .owl-controls.clickable .owl-buttons .owl-prev {
+  background: url(../img/icon/ico-left.png) center center no-repeat;
   float: left;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 #owl-demo .owl-controls.clickable .owl-buttons .owl-next {
+  background: url(../img/icon/ico-right.png) center center no-repeat;
   float: right;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 .btn-home {
   position: absolute;
@@ -1211,4 +1210,28 @@ a:hover {
 }
 .btn-home img:hover {
   opacity: 0.7;
+}
+#main-header .main-nav.menu-respon .nav-bar.hassub > ul {
+  padding-left: 15px;
+  margin: 5px;
+}
+#main-header .main-nav.menu-respon .nav-bar.hassub > ul > li {
+  display: table;
+  color: #fff;
+}
+#main-header .main-nav.menu-respon .nav-bar.hassub > ul > li:hover a {
+  border: none;
+}
+#main-header .main-nav.menu-respon.fix-list {
+  left: 0;
+}
+#main-header .main-nav.menu-respon.fix-list ul li:hover a {
+  border: none;
+}
+#main-header .main-nav.menu-respon.fix-list ul li.active {
+  border: none;
+}
+#main-header .main-nav.menu-respon.fix-list ul li.active a {
+  border: none;
+  margin: 0;
 }

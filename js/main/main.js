@@ -45,7 +45,7 @@ $(function() {
 			[1600, 5]
 			],
 			navigation : true,
-			navigationText : ["<img src='./img/icon/ico-left.png'>","<img src='./img/icon/ico-right.png'>"],
+			navigationText : ["",""],
 			pagination : false
 
 		});

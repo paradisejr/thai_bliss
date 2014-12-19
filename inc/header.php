@@ -96,7 +96,7 @@
 			<span class="nav-btn">
 				<i class="ico-bar"></i>
 			</span>
-			<div class="main-nav menu-respon">
+			<div class="main-nav menu-respon fix-list">
 				<ul>
 					<li class="nav-bar <?php if ( $page_name == 'home') { echo 'active'; } ?>"><a href="index.php">Home</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'about') { echo 'active'; } ?>"><a href="about.php">About Us</a></li>
@@ -104,8 +104,8 @@
 					<li class="nav-bar <?php if ( $page_name == 'products') { echo 'active'; } ?>"><a href="products.php">Products</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'gallery') { echo 'active'; } ?>"><a href="gallery.php">Gallery</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'testimony') { echo 'active'; } ?>"><a href="testimony.php">Testimony</a></li>
-					<li class="nav-bar submenu <?php if ( $page_name == 'offers') { echo 'active'; } ?>"><a href="offers-gift.php">Offers</a>
-						<ul class="sub-menu-2">
+					<li class="nav-bar hassub"><a href="offers-gift.php">Offers</a>
+						<ul>
 							<li class="<?php if ( $page_name == 'offers') { echo 'active'; } ?>"><a href="offers-gift.php">Buy Gift Certificates</a></li>
 							<li class="<?php if ( $page_name == 'offers-special') { echo 'active'; } ?>"><a href="offers-special.php">Special Offers </a></li>
 							<li class="<?php if ( $page_name == 'offers-membership') { echo 'active'; } ?>"><a href="offers-membership.php">Membership</a></li>
