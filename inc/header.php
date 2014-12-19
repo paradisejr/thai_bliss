@@ -105,7 +105,7 @@
 					<li class="nav-bar <?php if ( $page_name == 'gallery') { echo 'active'; } ?>"><a href="gallery.php">Gallery</a></li>
 					<li class="nav-bar <?php if ( $page_name == 'testimony') { echo 'active'; } ?>"><a href="testimony.php">Testimony</a></li>
 					<li class="nav-bar submenu <?php if ( $page_name == 'offers') { echo 'active'; } ?>"><a href="offers-gift.php">Offers</a>
-						<ul class="sub-menu" style="display: block;">
+						<ul class="sub-menu-2">
 							<li class="<?php if ( $page_name == 'offers') { echo 'active'; } ?>"><a href="offers-gift.php">Buy Gift Certificates</a></li>
 							<li class="<?php if ( $page_name == 'offers-special') { echo 'active'; } ?>"><a href="offers-special.php">Special Offers </a></li>
 							<li class="<?php if ( $page_name == 'offers-membership') { echo 'active'; } ?>"><a href="offers-membership.php">Membership</a></li>
