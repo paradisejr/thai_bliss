@@ -968,6 +968,9 @@ a:hover {
   .box-logo {
     text-align: center;
   }
+  .btn-home {
+    display: block !important;
+  }
 }
 @media (max-width: 320px) {
   .page-wrapper .pxs_container {
@@ -1194,4 +1197,18 @@ a:hover {
 #owl-demo .owl-controls.clickable .owl-buttons .owl-next {
   float: right;
   margin-right: 5px;
+}
+.btn-home {
+  position: absolute;
+  right: 40px;
+  top: 47px;
+  cursor: pointer;
+  display: none;
+}
+.btn-home img {
+  width: 31px;
+  height: 31px;
+}
+.btn-home img:hover {
+  opacity: 0.7;
 }

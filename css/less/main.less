@@ -1221,6 +1221,10 @@ a {
 	.box-logo {
 		text-align: center;
 	}
+
+	.btn-home {
+		display: block !important;
+	}
 }
 
 @media (max-width: 320px) {
@@ -1511,4 +1515,22 @@ a {
 			}
 		}
 	}
+}
+
+.btn-home {
+	position: absolute;
+	right: 40px;
+	top: 47px;
+	cursor: pointer;
+	display: none;
+
+	img {
+		width: 31px;
+		height: 31px;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
 }
