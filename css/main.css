@@ -929,7 +929,7 @@ a:hover {
     position: absolute;
     right: 0;
     text-align: center;
-    top: -30px;
+    top: -30px !important;
   }
   #main-header .main-nav.menu-respon ul li.nav-bar .sub-menu {
     position: relative;
