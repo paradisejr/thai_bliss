@@ -45,7 +45,7 @@ $(function() {
 			[1600, 5]
 			],
 			navigation : true,
-			navigationText : ["",""],
+			navigationText : ["prev","next"],
 			pagination : false
 
 		});
