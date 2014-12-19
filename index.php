@@ -81,6 +81,8 @@ include 'inc/header.php';
 
 	</div>
 
+	<div class="clearfix"></div>
+
 </div> <!-- end page-wrapper -->
 
 <?php include 'inc/footer.php'; ?>
