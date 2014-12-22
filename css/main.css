@@ -1176,37 +1176,6 @@ a:hover {
   color: #fff;
   background: rgba(0, 0, 0, 0.2);
 }
-#owl-demo .owl-controls.clickable {
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 85px;
-}
-#owl-demo .owl-controls.clickable .owl-pagination {
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-}
-#owl-demo .owl-controls.clickable .owl-buttons .owl-prev,
-#owl-demo .owl-controls.clickable .owl-buttons .owl-next {
-  width: 18px;
-  height: 50px;
-  margin-top: 20px;
-  position: absolute;
-  top: 0;
-}
-#owl-demo .owl-controls.clickable .owl-buttons .owl-prev {
-  float: left;
-  margin-left: 8px;
-  left: 0;
-}
-#owl-demo .owl-controls.clickable .owl-buttons .owl-next {
-  float: right;
-  margin-right: 8px;
-  right: 0;
-}
 .btn-home {
   position: absolute;
   right: 40px;
